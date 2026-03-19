@@ -4,20 +4,20 @@ A scalable and maintainable test automation framework built using **Python**, **
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This framework demonstrates a clean and professional automation setup with:
 
-* ✅ Page Object Model (POM)
-* ✅ Centralized test setup using `conftest.py`
-* ✅ Built-in Selenium driver management (no manual drivers required)
-* ✅ Allure reporting with step-level logging and screenshots
-* ✅ Data-driven testing using JSON
-* ✅ Reusable utilities and clean architecture
+* Page Object Model (POM)
+* Centralized test setup using `conftest.py`
+* Built-in Selenium driver management (no manual drivers required)
+* Allure reporting with step-level logging and screenshots
+* Data-driven testing using JSON
+* Reusable utilities and clean architecture
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 pure_part2_technical_exam/
@@ -45,7 +45,7 @@ pure_part2_technical_exam/
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 * **Python 3.x**
 * **Selenium WebDriver (built-in driver manager)**
@@ -55,7 +55,7 @@ pure_part2_technical_exam/
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 
@@ -90,7 +90,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run Tests
+## Run Tests
 
 ```bash
 pytest
@@ -98,7 +98,7 @@ pytest
 
 ---
 
-## 📊 Allure Reporting
+## Allure Reporting
 
 ### Generate and view report:
 
@@ -110,16 +110,16 @@ allure serve allure-results
 
 ### Features:
 
-* 📌 Step-by-step execution logs
-* 📸 Screenshot captured on each action
-* ❌ Automatic screenshot on failure
-* 🧾 Clean and interactive UI
+* Step-by-step execution logs
+* Screenshot captured on each action
+* Automatic screenshot on failure
+* Clean and interactive UI
 
 ---
 
-## 🧪 Test Design
+## Test Design
 
-### ✅ Page Object Model (POM)
+### Page Object Model (POM)
 
 Encapsulates:
 
@@ -130,7 +130,7 @@ Encapsulates:
 
 ---
 
-### ✅ `conftest.py`
+### `conftest.py`
 
 Centralized configuration for:
 
@@ -140,7 +140,7 @@ Centralized configuration for:
 
 ---
 
-### ✅ Data-Driven Testing
+### Data-Driven Testing
 
 ```python
 @pytest.mark.parametrize("case", ["valid_case", "invalid_case"])
@@ -154,7 +154,7 @@ data/test_data.json
 
 ---
 
-## 🧼 Best Practices Used
+## Best Practices Used
 
 * Separation of concerns (Test vs Page vs Setup)
 * Reusable utilities
@@ -164,7 +164,7 @@ data/test_data.json
 
 ---
 
-## 🔧 Future Improvements
+## Future Improvements
 
 * Cross-browser support (Chrome, Firefox)
 * Headless execution
@@ -174,13 +174,13 @@ data/test_data.json
 
 ---
 
-## 👤 Author
+## Author
 
 **Joshua Patrick**
 QA Automation Engineer (Cypress | Robot Framework | Selenium)
 
 ---
 
-## 📄 License
+## License
 
 This project is for demonstration and assessment purposes.
