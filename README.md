@@ -177,6 +177,7 @@ data/test_data.json
 ## Author
 
 **Joshua Patrick**
+
 Senior QA Automation Engineer (Cypress | Robot Framework | Selenium)
 
 ---
