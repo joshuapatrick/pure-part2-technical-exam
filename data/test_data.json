@@ -1,0 +1,13 @@
+{
+  "valid_case": {
+    "rent": "100",
+    "income": "1000",
+    "expected": "Qualified"
+    },
+    
+    "invalid_case": {
+    "rent": "1000",
+    "income": "100",
+    "expected": "Conditional"
+    }
+}
