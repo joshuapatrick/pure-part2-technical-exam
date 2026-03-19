@@ -1,4 +1,4 @@
-# 🧪 Selenium Pytest Automation Framework
+# Selenium Pytest Automation Framework
 
 A scalable and maintainable test automation framework built using **Python**, **Selenium WebDriver**, and **Pytest**, following the **Page Object Model (POM)** design pattern with **Allure Reporting** integration.
 
